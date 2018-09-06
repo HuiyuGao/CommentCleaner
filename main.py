@@ -10,7 +10,7 @@ from transverse import transverse, real_paths_to_process
 # get the dir path
 dir_path = sys.argv[1]
 
-single_line = r'(?<!:)\/\/.*'
+single_line = r'(?<!:)(?<!:\/)\/\/.*'
 
 multi_line = r'\/\*{1,2}[\s\S]*?\*\/'
 
